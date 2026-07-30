@@ -2,8 +2,6 @@
 
 > **An internal intranet for the geotechnical instrumentation community — built around the RST Instruments product portfolio (now an Orica company) and the field manuals engineers rely on every day.**
 
-![Geotechnical instrumentation field site](assets/hero-field.jpg){: align=right width=320px}
-
 Welcome to a curated, searchable knowledge base covering:
 
 - **RST Instruments portfolio** — piezometers, extensometers, inclinometers, and the RSTAR Affinity wireless data mesh

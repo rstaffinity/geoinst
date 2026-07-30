@@ -2,9 +2,9 @@ site_name: RST Instruments Knowledge Base
 site_description: >-
   Geotechnical instrumentation intranet — RST Instruments portfolio,
   field monitoring guides, and reference manuals for engineers.
-site_url: https://geoinst.github.io/
-repo_url: https://github.com/geoinst/geoinst.github.io
-repo_name: geoinst/geoinst.github.io
+site_url: https://rstaffinity.github.io/geoinst/
+repo_url: https://github.com/rstaffinity/geoinst
+repo_name: rstaffinity/geoinst
 edit_uri: ""
 
 theme:

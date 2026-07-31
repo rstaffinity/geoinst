@@ -1,0 +1,29 @@
+---
+title: Saturation Procedure for VW2100MM - Micro-Miniature VW Piezometers
+category: PIEZOMETERS
+modified: Thu, 18 Mar, 2021 at  2:53 PM
+source_url: https://support.rstinstruments.com/support/solutions/articles/63000261686-saturation-procedure-for-vw2100mm-micro-miniature-vw-piezometers
+article_id: 63000261686
+---
+
+# Saturation Procedure for VW2100MM - Micro-Miniature VW Piezometers
+
+The VW2100MM VW Piezometer does not have a removable filter stone. Any attempt to remove the end of the piezometer would result in damage to the piezometer.
+
+If using the Micro-Miniature Piezometers in an application where the expected pressure is less than 35 kPa, the piezometer should be saturated before use. If the application is expected that the pressure is to be greater than 35 kPa, then saturation is not necessary.
+
+The standard procedure for saturating piezometers as described in the RST Instruments VW2100 Piezometer manual can be followed for the Micro-Miniature VW Piezometer, with the exception that the piezometer should be saturated by leaving it in a bucket of water for at least 2 hours before following the procedure to take the initial readings before installation.
+
+If the if the installation is required sooner than that, and saturation is required, the procedure below can be followed to fast-track the saturation process:
+
+Attach a tube to the end of the piezometer that is approximately 15 cm long.
+
+Fill the tube with at least 5 cm of water.
+
+Attach a hand pump such as the one in the photo below (commonly used in bleeding automotive brake systems).
+
+While holding the piezometer vertical so the water rests on the filter, but does not enter the pump, squeeze the hand pump to create a vacuum inside the tubing. This will draw the air out of the space in the piezometer and allow it to be replaced by water. A vacuum of 50-65 cm of Hg is enough to fully evacuate the air from the piezometer.
+
+[Image: A picture containing text
+
+Description automatically generated]

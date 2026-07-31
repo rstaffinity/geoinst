@@ -1,0 +1,35 @@
+---
+title: How to connect DT Loggers to DTLink Wireless Hub using DT Loggers Host Software
+category: DT LINK WIRELESS DATA COLLECTION
+modified: Wed, 27 Oct, 2021 at 11:42 AM
+source_url: https://support.rstinstruments.com/support/solutions/articles/63000267640-how-to-connect-dt-loggers-to-dtlink-wireless-hub-using-dt-loggers-host-software
+article_id: 63000267640
+---
+
+# How to connect DT Loggers to DTLink Wireless Hub using DT Loggers Host Software
+
+Connect the DTLink Logger and DTLink Wireless Hub to the PC running DT Logger Host Software via USB Cables and open the DT Logger Host Software.
+
+In Connections Tab, select DTLink Settings and press Enable Edit button, enter coq in Password.
+
+Enter the DTLink Hub Address, Network ID and DTLink Logger Address in the dialog boxes. Press on Update Logger button to update devices.
+
+It will show Update successful at the end of the process.
+
+Press on Query DTLink button to check if the communication has been established successfully.
+
+Press on Discover to automatically detect the DTLink Logger and it will show up on Wireless Logger List.
+
+To manually enter the logger, press on Modify List button
+
+Then Add new, enter the DTLink Logger details as shown below.
+
+Press OK and the DTLink Wireless Hub will be connected to the DTLink Logger.
+
+To read the DTLink Logger, select the DTLink Logger from the list of loggers and press Connect.
+
+The status tab will show the details of the DTLink Logger being connected.
+
+Press Collect Data button to get data from the DT Logger memory, then either Append or Overwrite data to existing data records in the PC data files.
+
+Press on View Recent file to view recently downloaded data in Data Viewer.

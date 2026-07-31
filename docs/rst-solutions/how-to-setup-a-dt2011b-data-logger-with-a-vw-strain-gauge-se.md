@@ -1,0 +1,99 @@
+---
+title: How to setup a DT2011B Data Logger with a VW Strain Gauge Sensor
+category: STRAIN GAUGES & STRAIN METERS
+modified: Thu, 8 Jul, 2021 at  4:20 PM
+source_url: https://support.rstinstruments.com/support/solutions/articles/63000264706-how-to-setup-a-dt2011b-data-logger-with-a-vw-strain-gauge-sensor
+article_id: 63000264706
+---
+
+# How to setup a DT2011B Data Logger with a VW Strain Gauge Sensor
+
+Scenario: Customer needs to setup a RST DT2011B Data Logger with a RST VW Strain Gauge Sensor.
+
+Solution: Follow the steps in the guide below to do the job.
+
+When connecting the VW piezometer wires to the data logger, the wires should be connected to the proper terminal positions on the terminal block.
+
+SH – Shield wire
+
+C2 – Black wire
+
+C1 – Red wire
+
+T2 – Green wire
+
+T1 – White wire
+
+There is a Youtube video available https://www.youtube.com/watch?v=a5hHQaN1NkI that demonstrates the process.
+
+Connect to the DT2011B Data Logger with DT Logger Host Software. On the Connections tab, choose Options&gt;Advanced to set the battery type and initialize the battery. This should also be done when the battery is changed. Check the Use Resistance Scaling box. Make sure to remove the battery tab from the data logger before leaving the site as the data logger will run off the power supplied by the USB cable until it is disconnected.
+
+The manual for the VWSG Embedment Strain Gauge is at the link below and should referenced before and during the installation of the sensors and can be used for calculating the strain readings from the raw B Units recorded by the sensor.
+
+https://rstinstruments.com/wp-content/uploads/2020/04/embedment-vw-strain.pdf
+
+If desired, change the header to the serial number of the VWSG that is connected, or to the operators preferred description.
+
+If desired, click in the Display Format button to choose the decimal digits.
+
+To check the current readings, go to the Monitor tab and wait for it to update.
+
+To set the data logger collection interval, go to the Logger tab.
+
+When logging onto the data logger, the Status screen is the first to appear. It will display programmed information and show the current state of the data logger and battery information. To download the data from the data ;logger, click on the Collect Data button. The data is stored in the directory designated in the Connections tab, this can be changed by the operator.
+
+For assistance with data interpretation and conversion of readings, please refer to the Embedment Strain Gauge Manual on pages 9-13 at the link below.
+
+https://rstinstruments.com/wp-content/uploads/2020/04/embedment-vw-strain.pdf
+
+Use Long Strain Gauge (450-1200Hz) sweep settings.
+
+Check Engineering Units and choose the Linear Method these value is on the Calibration Record for the Strain Gauge Sensor.
+
+The initial B Unit and Temperature readings are taken when the sensor is installed.
+
+Check the Temperature Correction box and input the initial temperature value, the temperature correction factor for strain gauge steel will self-populate when the Long Strain Gauge is selected.
+
+Choose the Units Conversion and select Strain, the microstrain input and output will auto-populate.
+
+Click on Upload To Logger to save the selections.
+
+If there is existing data in the data logger, it will be erased when the sensor information is updated.
+
+Set the prefered interval
+
+Choose the start time for the data logger to collect the first reading. (it is a good idea to take some preliminary readings at 1 minute intervals to verify it is working correctly. Sync to Interval will start the data logger at midnight. The operator can choose a specified Start Time or Start Now.
+
+The clock can be synced to the computer or manually set.
+
+Memory Options will allow the data logger to overwrite older data or stop when it is full.
+
+For any changes to be programmed, the operator must press the Apply Settings button.
+
+Scenario:
+
+Solution:
+
+Make sure to remove the battery tab from the data logger before leaving the site as the data logger will run off the power supplied by the USB cable until it is disconnected.
+
+https://rstinstruments.com/wp-content/uploads/2020/04/embedment-vw-strain.pdf
+
+[Image: Diagram
+
+Description automatically generated]
+
+[Image: Graphical user interface, text, application, email
+
+Description automatically generated]
+
+[Image: A screenshot of a cell phone
+
+Description automatically generated]
+
+[Image: Graphical user interface
+
+Description automatically generated]
+
+[Image: A picture containing screenshot
+
+Description automatically generated]

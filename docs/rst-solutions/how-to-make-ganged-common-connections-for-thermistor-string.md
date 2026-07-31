@@ -1,0 +1,79 @@
+---
+title: How to make ganged common connections for Thermistor String in DT2040 Data Logger
+category: THERMISTORS
+modified: Tue, 9 Nov, 2021 at 10:29 AM
+source_url: https://support.rstinstruments.com/support/solutions/articles/63000267911-how-to-make-ganged-common-connections-for-thermistor-string-in-dt2040-data-logger
+article_id: 63000267911
+---
+
+# How to make ganged common connections for Thermistor String in DT2040 Data Logger
+
+This document is intended to be a supplement to the DT Logger Host software manual as it assumes users have a basic understanding of setting up DT series data loggers with DT Logger Host software. The manual is available for download from the RST Instruments website at https://rstinstruments.com/wp-content/uploads/ELM0080L-DT-Logger-Host-Instruction-Manual-PC-platform.pdf.
+
+The DT2040 Data Logger has 20 ports on the circuit board so a maximum of 40 thermistor connections can be made. Each port can be used to connect the two sensors, one in the 1A/1B terminal connections, and one in the 2A/2B terminal connections.
+
+The wires are all paired with some heat shrink to stop them from getting mixed up.
+
+In an application where the Commons (White wires) are ‘ganged’, jumper wires are required to make connections between some of the common connections. The wires will have to be connected into the terminal blocks, which can then be connected to the appropriate port.
+
+The middle position is only for a shield connection and should not be used for thermistor connections!
+
+Below is the wiring schematic that was delivered with the thermistor strings. In this situation, the colored wire connections are connected to the terminal port and the ‘Ganged white is connected to the connection beside it, a jumper is then used to connect to the other common position as shown in the wiring diagram.
+
+Common connections are ganged for channels as described below.
+
+Channels 1 and 3, Channels 2 and 4, Channels 5 and 7, Channels 6 and 8, Channels 9 and 11, Channels 10 and 12, Channels 13 and 15. For Channel 14 the wires just have to be connected, there is no jumper.
+
+Once the thermistors are connected in order on the circuit board, the sensors can be setup on the Sensor tab in DT Logger Host. The easiest way to set it up is to delete all but first two tabs using the ‘Del Sel’ button. Make sure that the proper sensor type is selected (3K Ohm is the default standard, but that can be designated by the customer before purchase). Change the names of the tabs to reference the preferred nomenclature for the thermistor string. The subsequent thermistors can be added by clicking ‘New Copy’ and then change the tab name. Make sure to click ‘Upload to Logger’ to save the settings to the data logger memory.
+
+When all the sensors have been added, only ten sensors will be displayed at a time. The groups will be designated as A, B, C and D.
+
+Once the sensor tab is set, set the information in the Logging tab and choose ‘Apply Settings’ to start the data logger’. Refer to the DT Logger Host software manual for preferred Logger Options.
+
+To watch real-time readings, click on the Monitor tab. Only 10 sensors can be displayed at a time, to look at different sensors, choose the letter group. The title on the tab for each sensor will be displayed and the units box can be unchecked to show the raw resistance readings.
+
+*Note: Thermistors were not connected to this data logger when this document was written, so there are no values displayed in the screenshot below.
+
+Choosing the Status tab will allow the operator to see the status of the data logger and to download the data.
+
+The Connections tab is used to setup the data logger for the type of connection (DTLink Wireless, RSTAR Wireless or USB).
+
+Click ‘Options’ and Advanced to set and initialize the battery, and check the Use Resistance Scaling factor box for the thermistors.
+
+The Resistance vs. Temperature Relationship table for the 3K Ohm Thermistor is attached below. This is the standard thermistor used in most thermistor strings.
+
+If another thermistor type is used in the thermistor string, please contact RST Support at [email&#160;protected] or phone 1-604-540-1100.
+
+The middle position is only for a shield connection and should not be used for thermistor connections!
+
+[Image: A screenshot of a video game
+
+Description automatically generated with medium confidence]
+
+[Image: Diagram
+
+Description automatically generated]
+
+[Image: A map of a city
+
+Description automatically generated with medium confidence]
+
+[Image: Graphical user interface, text, application, email
+
+Description automatically generated]
+
+[Image: Graphical user interface, text, application
+
+Description automatically generated]
+
+[Image: Graphical user interface, text, application, email
+
+Description automatically generated]
+
+[Image: Graphical user interface, application
+
+Description automatically generated]
+
+[Image: Graphical user interface, text, application
+
+Description automatically generated]

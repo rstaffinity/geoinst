@@ -1,0 +1,29 @@
+---
+title: How to adjust boreholes after Adding or Removing inclinometer casing
+category: INCLINALYSIS DIGITAL INCLINOMETER SOFTWARE
+modified: Mon, 18 Oct, 2021 at  8:33 AM
+source_url: https://support.rstinstruments.com/support/solutions/articles/63000267469-how-to-adjust-boreholes-after-adding-or-removing-inclinometer-casing
+article_id: 63000267469
+---
+
+# How to adjust boreholes after Adding or Removing inclinometer casing
+
+When you add casing to an inclinometer, it must be added in equal increments of the length of the probe for the borehole.
+
+For example, if it is a 0.5m probe, the length of casing added or subtracted, has to be a multiple of that length.
+
+Once the casing has been added (or removed) to the top of the borehole, you will have to change the depth in the borehole file in the Field PC, then complete the new borehole profile.
+
+When the first borehole profile is completed with the new casing length, import the data file into Inclinalysis.
+
+Start Inclinalysis and add the new file to the borehole.
+
+Click Edit &gt; Borehole Changes &gt; Insert &gt; Edit Fill Layer.
+
+If adding casing to the borehole, add the length of the casing added to the borehole (in multiples of the probe length).
+
+If casing is being added to the borehole, the depth adjustment added will be positive, if casing is being removed from the borehole, the depth adjustment will be negative.
+
+Click OK to save the changes to the fill layer and click OK to save the borehole changes.
+
+For the surveys completed before the extra casing was installed, the data points for top length of the casing will be auto filled by the program.

@@ -1,0 +1,75 @@
+---
+title: How to Add Users to the Platform
+category: GEOExplorerIQ User Management
+modified: Tue, 30 Jun, 2026 at  1:02 PM
+source_url: https://support.rstinstruments.com/support/solutions/articles/63000288964-how-to-add-users-to-the-platform
+article_id: 63000288964
+---
+
+# How to Add Users to the Platform
+
+Access the Administration Portal
+
+A dropdown menu will appear with options such as:
+
+To access to the administration portal, click on the yellow circle next to your name, and email address. You will be redirected to the "Administration Portal"
+
+Go to Settings or Administration
+
+Create a New User:
+
+Review Permissions and Site Access
+
+After the user has been created, you can check the permissions and assigned sites that they are permitted to monitor.
+
+Available roles may include:
+
+Note: Only users with the Site Admin role can create new users
+
+Click on the yellow circle with your initials (top-right corner).
+
+A dropdown menu will appear with options such as:Theme
+
+Language
+
+Knowledge Base
+
+Open Support Ticket
+
+Contact Support
+
+Log Out
+
+Go to the Users section
+
+Click Create User
+
+Fill in the required user details
+
+Save to create the user
+
+Go to the Sites section
+
+Select "Edit" Next to "View"
+
+Assign or update the user's role
+
+Read Only
+
+Standard User
+
+Field Technician
+
+Site Admin
+
+Access the Administration Portal
+
+Go to Settings or Administration
+
+Create a New User:
+
+Review Permissions and Site Access
+
+Manage Roles by Sites
+
+Note: Only users with the Site Admin role can create new users

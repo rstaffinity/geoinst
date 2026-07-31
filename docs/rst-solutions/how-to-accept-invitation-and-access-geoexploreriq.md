@@ -1,0 +1,135 @@
+---
+title: How to accept invitation and access GeoExplorerIQ
+category: GEOExplorerIQ Device Mgmt
+modified: Mon, 1 Jun, 2026 at  4:09 PM
+source_url: https://support.rstinstruments.com/support/solutions/articles/63000288601-how-to-accept-invitation-and-access-geoexploreriq
+article_id: 63000288601
+---
+
+# How to accept invitation and access GeoExplorerIQ
+
+Note: This guide is Not for "SSO enabled customers"
+
+Step 1:
+
+Admin will submit an invite to a new users with required access level.
+
+Step 2:
+
+User will get an email with the invitation
+
+Step 3:
+
+Once clicked on the "Accept invitation", you will be prompt to create the user profile with name and password.
+
+Step 4:
+
+After the password is set, you will be directed to login. Use the email and the new password that was set in step 3.
+
+Step 5:
+
+After login, you will be asked to for "User Acknowledgement" Read thoroughly and checkbox on the terms and conditions with either Accept or Decline.
+
+Your use of the Orica Digital Solutions products will be governed by any terms and conditions of use which may have been agreed with you or your employer, and may include end-user licence terms. If there is any inconsistency between this Acknowledgement and those terms and conditions, this Acknowledgement will apply.
+
+When you log in, Orica collects and processes your personal data, including your name, email address, job title, and usage activity, in accordance with our Privacy Notice and the Terms &amp; Conditions agreed with your employer.
+
+Under applicable privacy laws, you have the right to:
+
+To exercise your rights or for any questions, contact: [email&#160;protected]
+
+By continuing, you confirm that you have read and understood this information."
+
+Step 6:
+
+If you select "Accept and Continue" you will be directed to Orica Digital Solution Platform(ODS) where you can access different digital solutions in ODS.
+
+Step 7:
+
+Choose the app "GeoExplorerIQ" in the ODS platform to launch the website.
+
+Alternatively, if you cannot find the app in the dashboard, go to geoexploreriq.com
+
+You will see the login page. Use the credentials that you created in step 3.
+
+Step 8:
+
+Choose the project in the top left drop down selections for Map and device list to load.
+
+Customer dataPurpose: To support your organization’s use of the platform and services.Examples: Username linked to customer records (e.g., “User A created blast B”).Legal basis: Performance of contract with your employer.
+
+Operational dataPurpose: To ensure secure access and maintain platform functionality.Examples: Login records, IP address, browser fingerprint, access logs.Legal basis: Legitimate interests (security, fraud prevention); Legal obligation (compliance).
+
+Usage dataPurpose: To improve platform features, diagnose issues, and enhance user experience.Examples: Username, browser/OS, city/state/country, feature usage patterns.Legal basis: Legitimate interests (product improvement, service optimization).
+
+Access your personal data;
+
+Correct inaccurate or incomplete data;
+
+Request deletion of your data;
+
+Object to processing based on legitimate interests;
+
+Request restriction of processing;
+
+Receive your data in a structured, machine-readable format (data portability).
+
+Data is retained only as long as necessary for the stated purposes or to meet legal obligations.
+
+Data may be shared with trusted service providers under appropriate safeguards.
+
+For full details, please review our Privacy Notice.
+
+Full User acknowledgement
+
+ORICA DIGITAL SOLUTIONS - USER ACKNOWLEDGEMENT
+
+Categories of data collected
+
+Your rights
+
+Additional Information
+
+Accept and continue
+
+Step 1:
+
+Step 2:
+
+Step 3:
+
+Step 4:
+
+Step 5:
+
+Full User acknowledgement
+
+Customer data
+
+Purpose:
+
+Examples:
+
+Legal basis:
+
+Operational data
+
+Purpose:
+
+Examples:
+
+Legal basis:
+
+Usage data
+
+Purpose:
+
+Examples:
+
+Legal basis:
+
+Step 6:
+
+Step 7:
+
+Step 8:

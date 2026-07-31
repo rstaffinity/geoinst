@@ -98,6 +98,8 @@ nav:
       - Extensometers: rst-instruments/extensometers.md
       - Inclinometers: rst-instruments/inclinometers.md
       - Data Loggers: rst-instruments/data-loggers.md
+  - RST Solutions:
+      - Official Support Articles: rst-solutions/index.md
   - Reference Manuals:
       - Index: reference-manuals/index.md
       - Dunnicliff — Field Performance: reference-manuals/dunnicliff.md

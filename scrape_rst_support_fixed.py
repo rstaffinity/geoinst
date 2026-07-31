@@ -105,7 +105,9 @@ def make_slug(article_id, title):
     """Create a clean slug from article ID and title."""
     # Use article ID as base, add a short title fragment
     short = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')[:40]
-    return f"{article_id}-{short}"
+    # Ensure slug doesn't end with hyphen (causes MkDocs to create dir instead of file)
+    slug = f"{article_id}-{short}".rstrip('-')
+    return slug
 
 
 def fetch_article(url):

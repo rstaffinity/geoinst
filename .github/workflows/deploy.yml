@@ -29,8 +29,6 @@ jobs:
           if [ "$GITHUB_REPOSITORY" = "rstaffinity/geoinst" ]; then
             echo "Configuring mkdocs for mirror repository rstaffinity/geoinst..."
             sed -i 's|site_url: https://geoinst.github.io/|site_url: https://rstaffinity.github.io/geoinst/|g' mkdocs.yml
-            sed -i 's|repo_url: https://github.com/geoinst/geoinst.github.io|repo_url: https://github.com/rstaffinity/geoinst|g' mkdocs.yml
-            sed -i 's|repo_name: geoinst/geoinst.github.io|repo_name: rstaffinity/geoinst|g' mkdocs.yml
           fi
       - run: pip install mkdocs-material pymdown-extensions
       - run: mkdocs build --strict

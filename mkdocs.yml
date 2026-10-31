@@ -3,8 +3,6 @@ site_description: >-
   Geotechnical instrumentation knowledge base — field monitoring guides,
   instrument principles, and reference manuals for engineers.
 site_url: https://geoinst.github.io/
-repo_url: https://github.com/geoinst/geoinst.github.io
-repo_name: geoinst/geoinst.github.io
 edit_uri: ""
 
 theme:
